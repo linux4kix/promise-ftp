@@ -23,10 +23,8 @@
     "node"
   ],
   "dependencies": {
+    "bluebird": "^2.10.2",
     "ftp": "0.3.10"
-  },
-  "devDependencies": {
-    "coffee-script": "1.x"
   },
   "peerDependencies": {
     "promise-ftp-common": "^1.1.5"
@@ -36,11 +34,7 @@
     "url": "https://github.com/realtymaps/promise-ftp/issues"
   },
   "engines": {
-    "node": ">=0.11.13",
+    "node": ">=0.10.40",
     "iojs": "*"
-  },
-  "scripts": {
-    "prepublish": "coffee --compile --output dist/ lib/",
-    "dev": "coffee --watch --output dist lib/"
   }
 }
